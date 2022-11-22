@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "storage": {
+      "cliniCloudStorage": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

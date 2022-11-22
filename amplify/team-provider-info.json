@@ -1,0 +1,36 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-clinicloud-dev-194641-authRole",
+      "UnauthRoleArn": "arn:aws:iam::513524684875:role/amplify-clinicloud-dev-194641-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::513524684875:role/amplify-clinicloud-dev-194641-authRole",
+      "Region": "sa-east-1",
+      "DeploymentBucketName": "amplify-clinicloud-dev-194641-deployment",
+      "UnauthRoleName": "amplify-clinicloud-dev-194641-unauthRole",
+      "StackName": "amplify-clinicloud-dev-194641",
+      "StackId": "arn:aws:cloudformation:sa-east-1:513524684875:stack/amplify-clinicloud-dev-194641/6134cb90-6537-11ed-a41a-02480da94300",
+      "AmplifyAppId": "d1x9dw7fzuvg74"
+    },
+    "categories": {
+      "function": {
+        "cliniCloudLambda": {
+          "deploymentBucketName": "amplify-clinicloud-dev-194641-deployment",
+          "s3Key": "amplify-builds/cliniCloudLambda-52736f72346943533478-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1x9dw7fzuvg74",
+          "type": "manual"
+        },
+        "S3AndCloudFront": {}
+      },
+      "storage": {
+        "cliniCloudStorage": {}
+      },
+      "api": {
+        "cliniCloudApi": {}
+      }
+    }
+  }
+}

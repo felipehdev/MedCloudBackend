@@ -1,0 +1,10 @@
+{
+  "resourceName": "cliniCloudStorage",
+  "tableName": "cliniCloudStorage",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
